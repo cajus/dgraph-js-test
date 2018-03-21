@@ -1,0 +1,15 @@
+{
+  "name": "dgtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dgraph-js": "^1.2.1",
+    "grpc": "^1.10.0"
+  }
+}
