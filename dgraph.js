@@ -78,7 +78,7 @@ async function createData(dgraphClient) {
         // Run mutation.
         const mu = new dgraph.Mutation();
         mu.setSetJson(p);
-        txn2.mutate(mu);
+        await txn2.mutate(mu);
 
         // Commit transaction.
         await txn2.commit();
